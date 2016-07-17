@@ -103,8 +103,8 @@ $(function(){
 		 <div class="clearfix"> </div>
 	  </div>
 		 <div class="banner-bottom">
-		 	<h3>LoveLive!</h3>
-		 	<h4>ラブライブ！ School idol project</h4>
+		 	<h3 style="color: red">LoveLive!</h3>
+		 	<h4 style="color: red">ラブライブ！ School idol project</h4>
 		 </div>
 	 </div>
  </div>
@@ -236,31 +236,39 @@ $(function(){
 			
 						 <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
 						  <ul class="resp-tabs-list">
-						  	  <li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>All</span></li>
-							  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>Category</span></li>
-							  <li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>Category1</span></li>
-							 <li class="resp-tab-item" aria-controls="tab_item-3" role="tab"><span>Category2</span></li>
+						  	  <li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>μ's</span></li>
+							  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>Aqours</span></li>
+<!-- 							  <li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>Category1</span></li> -->
+<!-- 							  <li class="resp-tab-item" aria-controls="tab_item-3" role="tab"><span>Category2</span></li> -->
 							  <div class="clearfix"> </div>
 						  </ul>				  	 
 							<div class="resp-tabs-container">
 							    <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
 									<div class="tab_img">
-									  <div class="col-md-3 img-top ">
+									  <div style="position: relative" id="cd1" class="col-md-3 img-top " onclick="autoPlay('cd1')">
 <!-- 					   		  			   <a href="../images/cd_01a.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"> -->
-					   		  			   	<img src="../images/lovelive1.jpg" class="img-responsive" alt="">
+					   		  			   	<img src="../images/lovelive1.jpg" class="img-responsive center-block" alt="">
 <!-- 												 <div class="link-top"> -->
 <!-- 												 <i class="link"> </i> -->
 <!-- 												 </div> -->
-<!-- 												<span style="text-align: center">僕らのLIVE 君とのLIFE</span> -->
-												<h4>僕らのLIVE 君とのLIFE</h4>
+												
 <!-- 												<div class="ser-border"> -->
 <!-- 													<h5>僕らのLIVE 君とのLIFE</h5> -->
 <!-- 												</div> -->
 <!-- 					   		  			   </a> -->
+											<div style="text-align: center">
+												<span>僕らのLIVE 君とのLIFE</span>
+<!-- 												<img src="../images/play.jpg" width="35%"> -->
+											</div>
+											<div style="position: absolute;top: 20%;left: 10%">
+<!-- 												<img src="../images/play.jpg" width="100%"> -->
+												<img src="../images/pause.jpg" width="100%">
+											</div>
 											
-<!-- 					   		  			   <audio autoplay="autoplay" src="../audio/Audio.wav" controls="controls" loop="loop"></audio> -->
+											
+					   		  			   <audio src="E:\java\music\μ's - 僕らのLIVE 君とのLIFE.mp3" loop="loop"></audio>
 <!-- 					   		  			   <input type="button" onclick="autoPlay()" value="播放"> -->
-					   		  			    
+					   		  			    <input type="hidden" value="E:\java\music\僕たちはひとつの光.mp3">
 										</div>
 										<div class="col-md-3 img-top ">
 <!-- 					   		  			    <a href="../images/g2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"> -->
@@ -671,6 +679,82 @@ $(function(){
 							   				<img src="../images/lovelive76.jpg" class="img-responsive" alt=""/>
 							   				<span>好きですが好きですか?</span>
 							   			</div>
+							   			<div class="clearfix"></div>
+							   	</div>
+							   	<div class="tab_img">
+							   			<div class="col-md-3 img-top ">
+							   				<img src="../images/lovelive77.jpg" class="img-responsive" alt=""/>
+							   				<span>ミはμ'sicのミ</span>
+							   			</div>
+							   			<div class="col-md-3 img-top ">
+							   				<img src="../images/lovelive78.jpg" class="img-responsive" alt=""/>
+							   				<span>ずるいよMagnetic today</span>
+							   			</div>
+							   			<div class="col-md-3 img-top ">
+							   				<img src="../images/lovelive79.jpg" class="img-responsive" alt=""/>
+							   				<span>Super LOVE=Super LIVE!</span>
+							   			</div>
+							   			<div class="col-md-3 img-top ">
+							   				<img src="../images/lovelive80.jpg" class="img-responsive" alt=""/>
+							   				<span>くるりんMIRACLE</span>
+							   			</div>
+							   			<div class="clearfix"></div>
+							   	</div>
+							   	<div class="tab_img">
+							   			<div class="col-md-3 img-top ">
+							   				<img src="../images/lovelive81.jpg" class="img-responsive" alt=""/>
+							   				<span>MOMENT RING</span>
+							   			</div>
+							   			<div class="col-md-3 img-top ">
+							   				<img src="../images/lovelive82.jpg" class="img-responsive" alt=""/>
+							   				<span>Storm in Lover</span>
+							   			</div>
+							   			<div class="col-md-3 img-top ">
+							   				<img src="../images/lovelive83.jpg" class="img-responsive" alt=""/>
+							   				<span>さようならへさよなら！</span>
+							   			</div>
+							   			<div class="col-md-3 img-top ">
+							   				<img src="../images/lovelive84.jpg" class="img-responsive" alt=""/>
+							   				<span>NO EXIT ORION</span>
+							   			</div>
+							   			<div class="clearfix"></div>
+							   	</div>
+							   	<div class="tab_img">
+							   			<div class="col-md-3 img-top ">
+							   				<img src="../images/lovelive85.jpg" class="img-responsive" alt=""/>
+							   				<span>Shangri-La Shower</span>
+							   			</div>
+							   			<div class="col-md-3 img-top ">
+							   				<img src="../images/lovelive86.jpg" class="img-responsive" alt=""/>
+							   				<span>春情ロマンチィック</span>
+							   			</div>
+							   			<div class="col-md-3 img-top ">
+							   				<img src="../images/lovelive87.jpg" class="img-responsive" alt=""/>
+							   				<span>るてしキスキしてる</span>
+							   			</div>
+							   			<div class="col-md-3 img-top ">
+							   				<img src="../images/lovelive88.jpg" class="img-responsive" alt=""/>
+							   				<span>PSYCHIC FIRE</span>
+							   			</div>
+							   			<div class="clearfix"></div>
+							   	</div>
+							   	<div class="tab_img">
+							   			<div class="col-md-3 img-top ">
+							   				<img src="../images/lovelive89.jpg" class="img-responsive" alt=""/>
+							   				<span>そして最后のページには</span>
+							   			</div>
+							   			<div class="col-md-3 img-top ">
+							   				<img src="../images/lovelive90.jpg" class="img-responsive" alt=""/>
+							   				<span>ぷわぷわーお!</span>
+							   			</div>
+<!-- 							   			<div class="col-md-3 img-top "> -->
+<!-- 							   				<img src="../images/lovelive88.jpg" class="img-responsive" alt=""/> -->
+<!-- 							   				<span>PSYCHIC FIRE</span> -->
+<!-- 							   			</div> -->
+<!-- 							   			<div class="col-md-3 img-top "> -->
+<!-- 							   				<img src="../images/lovelive88.jpg" class="img-responsive" alt=""/> -->
+<!-- 							   				<span>PSYCHIC FIRE</span> -->
+<!-- 							   			</div> -->
 							   	</div>
 									 	        					 
 						  </div>
@@ -1029,7 +1113,7 @@ $(function(){
 	</div>
 </div>
 <div>
-	<audio src="../audio/Audio.mp3" autoplay="autoplay" controls="controls"></audio>
+<!-- 	<audio src="../audio/Audio.mp3" autoplay="autoplay" controls="controls"></audio> -->
 </div>
 <!--//contact-->
 <!--map statrt here-->
@@ -1037,7 +1121,15 @@ $(function(){
 <!--copy right start here-->
 
 <script>
-	
+	function autoPlay(num){
+		var id = "#"+num;
+		var audio = $(id).children("audio").get(0);
+		if(audio.paused){
+			audio.play();
+			return;
+		}
+		audio.pause();
+	}
 	
 	
 </script>
