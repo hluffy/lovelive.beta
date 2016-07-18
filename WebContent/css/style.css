@@ -86,10 +86,15 @@ span.menu {
 .top-nav ul li a:hover{
 	color:#fff;
 }
-.banner {
+.bannerForLL {
   background: url(../images/lovelivehead.jpg)no-repeat;
   min-height: 855px;
   background-size: cover;
+}
+.bannerForLLSS {
+	background:url(../images/lovelivehead.jpg)no-repeat;
+	min-height:855px;
+	background-size:cover;
 }
 .banner-bottom {
   padding: 15em 0em 0em 0em;
