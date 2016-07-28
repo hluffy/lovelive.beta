@@ -657,7 +657,7 @@ span.devide-line {
 	-ms-transition: all 0.3s ease-out;
 	-o-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
-	text-transform: uppercase;
+/* 	text-transform: uppercase; */
 	border: 2px solid #B08A5B;
 	margin: 0 0.5em 0;
 }
