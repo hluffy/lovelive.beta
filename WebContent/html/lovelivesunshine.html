@@ -1308,6 +1308,10 @@ $(function(){
 			return;
 		}
 		audio.pause();
+		console.log(audio.ended);
+		if(object==audio.ended){
+			autoPlay("cd2");
+		}
 	}
 	
 	

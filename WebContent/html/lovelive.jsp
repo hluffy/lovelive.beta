@@ -354,7 +354,7 @@ $(function(){
 											</div>
 											<audio src="E:\java\music\μ's - もぎゅっと'love'で接近中!.mp3"></audio>
 										</div>
-										<div class="col-md-3 img-top ">
+										<div id="cd8" class="col-md-3 img-top ">
 <!-- 					   		  			     <a href="../images/g8.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"> -->
 					   		  			     	<img src="../images/lovelive8.jpg" class="img-responsive" alt=""/>
 <!-- 												 <div class="link-top"> -->
@@ -364,14 +364,15 @@ $(function(){
 					   		  			   <div style="text-align:center">
 					   		  			   		<span>爱してるばんざーい!</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd8')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 										</div>
 											<div class="clearfix"> </div>
 							     </div>	
 							     <div class="tab_img">
-									  <div class="col-md-3 img-top ">
+									  <div id="cd9" class="col-md-3 img-top ">
 <!-- 					   		  			   <a href="../images/g1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"> -->
 					   		  			   	<img src="../images/lovelive9.jpg" class="img-responsive" alt=""/>
 <!-- 												 <div class="link-top"> -->
@@ -382,11 +383,12 @@ $(function(){
 					   		  			   <div style="text-align:center">
 					   		  			   		<span>Wonderful Rush</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd9')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 										</div>
-										<div class="col-md-3 img-top ">
+										<div id="cd10" class="col-md-3 img-top ">
 <!-- 					   		  			    <a href="../images/g10.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"> -->
 					   		  			    	<img src="../images/lovelive10.jpg" class="img-responsive" alt=""/>
 <!-- 												 <div class="link-top"> -->
@@ -397,11 +399,12 @@ $(function(){
 					   		  			   <div style="text-align:center">
 					   		  			   		<span>Oh, Love&Peace!</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd10')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 										</div>
-										<div class="col-md-3 img-top ">
+										<div id="cd11" class="col-md-3 img-top ">
 <!-- 					   		  			   <a href="../images/g11.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"> -->
 					   		  			   	<img src="../images/lovelive11.jpg" class="img-responsive" alt=""/>
 <!-- 												 <div class="link-top"> -->
@@ -411,11 +414,12 @@ $(function(){
 					   		  			   <div style="text-align:center">
 					   		  			   		<span>仆らは今のなかで</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd11')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 										</div>
-										<div class="col-md-3 img-top ">
+										<div id="cd12" class="col-md-3 img-top ">
 <!-- 					   		  			     <a href="../images/g12.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"> -->
 					   		  			     	<img src="../images/lovelive12.jpg" class="img-responsive" alt=""/>
 <!-- 												 <div class="link-top"> -->
@@ -425,771 +429,850 @@ $(function(){
 					   		  			   <div style="text-align:center">
 					   		  			   		 <span>WILD STARS</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd12')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 										</div>
 											<div class="clearfix"> </div>
 							     </div>	
 							   		<div class="tab_img">
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd13" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive13.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>きっと青春が闻こえる</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd13')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top">
+							   			<div id="cd14" class="col-md-3 img-top">
 							   				<img src="../images/lovelive14.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>辉夜の城で踊りたい</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd14')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top">
+							   			<div id="cd15" class="col-md-3 img-top">
 							   				<img src="../images/lovelive15.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>ススメ→トゥモロウ</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd15')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top">
+							   			<div id="cd16" class="col-md-3 img-top">
 							   				<img src="../images/lovelive16.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>No brand girls</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd16')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
 							   			<div class="clearfix"> </div>
 							   		</div>
 							   		<div class="tab_img">
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd17" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive17.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>ラブノベルス</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd17')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd18" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive18.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>これからのSomeday</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd18')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd19" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive19.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>知らないlove*教えてlove</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd19')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd20" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive20.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>START:DASH!!</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd20')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
 							   			<div class="clearfix"></div>
 							   		</div>
 							   	<div class="tab_img">
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd21" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive21.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>sweet&sweet holiday</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd21')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd22" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive22.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>爱は太阳じゃない?</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd22')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd23" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive23.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>ダイヤモンドプリンセスの忧郁</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd23')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd24" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive24.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>Love marginal</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd24')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
 							   			<div class="clearfix"></div>
 							   	</div>
 							   	<div class="tab_img">
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd25" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive25.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>タカラモノズ</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd25')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd26" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive26.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>Paradise Live</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd26')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd27" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive27.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>Listen to my heart!!</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd27')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd28" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive28.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>Music S.T.A.R.T!!</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd28')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
 							   			<div class="clearfix"></div>
 							   	</div>
 							   	<div class="tab_img">
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd29" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive29.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>あ・の・ね・が・ん・ば・れ!</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd29')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd30" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive30.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>LOVELESS WORLD</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd30')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd31" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive31.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>after school NAVIGATORS</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd31')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd32" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive32.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>LONELIEST BABY</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd32')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
 							   			<div class="clearfix"></div>
 							   	</div>
 							   	<div class="tab_img">
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd33" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive33.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>Cutie Panther</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd33')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd34" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive34.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>それは仆たちの奇迹</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd34')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd35" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive35.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>Pure girls project</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd35')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd36" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive36.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>どんなときもずっと</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd36')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
 							   			<div class="clearfix"></div>
 							   	</div>
 							   	<div class="tab_img">
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd37" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive37.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>微热からMystery</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd37')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd38" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive38.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>ユメノトビラ</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd38')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd39" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive39.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>夏、终わらないで。</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd39')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd40" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive40.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>Love wing bell</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd40')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
 							   			<div class="clearfix"></div>
 							   	</div>
 							   	<div class="tab_img">
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd41" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive41.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>UNBALANCED LOVE</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd41')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd42" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive42.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>Dancing Stars On Me!</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd42')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd43" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive43.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>キミのくせに!</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd43')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd44" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive44.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>KiRa-KiRa Sensation!</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd44')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
 							   			<div class="clearfix"></div>
 							   	</div>
 							   	<div class="tab_img">
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd45" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive45.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>ありふれた悲しみの果て</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd45')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd46" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive46.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>Happy maker!</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd46')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd47" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive47.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>孤独なHeaven</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd47')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd48" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive48.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>だってだって噫无情</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd48')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
 							   			<div class="clearfix"></div>
 							   	</div>
 							   	<div class="tab_img">
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd49" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive49.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>Someday of my life</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd49')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd50" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive50.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>COLORFUL VOICE</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd50')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd51" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive51.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>ぶる~べりぃ♥とれいん</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd51')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd52" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive52.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>SENTIMENTAL StepS</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd52')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
 							   			<div class="clearfix"></div>
 							   	</div>
 							   	<div class="tab_img">
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd53" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive53.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>Daring!!</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd53')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd54" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive54.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>もうひとりじゃないよ</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd54')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd55" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive55.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>勇気のReason</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd55')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd56" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive56.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>私たちは未来の花</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd56')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
 							   			<div class="clearfix"></div>
 							   	</div>
 							   	<div class="tab_img">
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd57" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive57.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>恋のシグナルRin rin rin!</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd57')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd58" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive58.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>スピカテリブル</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd58')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd59" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive59.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>まほうつかいはじめました!</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd59')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd60" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive60.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>纯爱レンズ</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd60')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
 							   			<div class="clearfix"></div>
 							   	</div>
 							   	<div class="tab_img">
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd61" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive61.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>Angelic Angel</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd61')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd62" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive62.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>Private Wars</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd62')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd63" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive63.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>ふたりハピネス</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd63')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd64" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive64.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>SUNNY DAY SONG</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd64')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
 							   			<div class="clearfix"></div>
 							   	</div>
 							   	<div class="tab_img">
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd65" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive65.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>Trouble Busters</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd65')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd66" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive66.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>永远フレンズ</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd66')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd67" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive67.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>秋のあなたの空远く</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd67')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd68" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive68.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>冬がくれた予感 </span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd68')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
 							   			<div class="clearfix"></div>
 							   	</div>
 							   	<div class="tab_img">
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd69" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive69.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>仆たちはひとつの光 </span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd69')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd70" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive70.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>小夜啼鸟恋诗 </span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd70')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd71" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive71.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>シアワセ行きのSMILING!</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd71')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd72" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive72.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>HEART to HEART! </span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd72')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
 							   			<div class="clearfix"></div>
 							   	</div>
 							   	<div class="tab_img">
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd73" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive72.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>嵐のなかの恋だから</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd73')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd74" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive74.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>もしもからきっと</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd74')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd75" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive75.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>Shocking Party</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd75')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd76" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive76.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>好きですが好きですか?</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd76')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
 							   			<div class="clearfix"></div>
 							   	</div>
 							   	<div class="tab_img">
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd77" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive77.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>ミはμ'sicのミ</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd77')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd78" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive78.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>ずるいよMagnetic today</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd78')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd79" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive79.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>Super LOVE=Super LIVE!</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd79')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd80" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive80.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>くるりんMIRACLE</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd80')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
 							   			<div class="clearfix"></div>
 							   	</div>
 							   	<div class="tab_img">
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd81" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive81.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>MOMENT RING</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd81')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd82" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive82.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>Storm in Lover</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd82')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd83" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive83.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>さようならへさよなら！</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd83')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd84" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive84.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>NO EXIT ORION</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd84')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
 							   			<div class="clearfix"></div>
 							   	</div>
 							   	<div class="tab_img">
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd85" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive85.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>Shangri-La Shower</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd85')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd86" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive86.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>春情ロマンチィック</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd86')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd87" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive85.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>るてしキスキしてる</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd87')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd88" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive88.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>PSYCHIC FIRE</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd88')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
 							   			<div class="clearfix"></div>
 							   	</div>
 							   	<div class="tab_img">
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd89" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive89.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>そして最后のページには</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd89')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
-							   			<div class="col-md-3 img-top ">
+							   			<div id="cd90" class="col-md-3 img-top ">
 							   				<img src="../images/lovelive90.jpg" class="img-responsive" alt=""/>
 							   				<div style="text-align:center">
 					   		  			   		<span>ぷわぷわーお!</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd1')">
+					   		  			   <div class="img" style="position: absolute;top: 30%;left: 30%;width: 100px;height: 100px" onclick="autoPlay('cd90')">
 												<img hidden="true" src="../images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 							   			</div>
 <!-- 							   			<div class="col-md-3 img-top "> -->
 <!-- 							   				<img src="../images/lovelive88.jpg" class="img-responsive" alt=""/> -->
@@ -1616,6 +1699,7 @@ $(function(){
 		var id = "#"+num;
 		var img = $(id).children("div").children("img");
 		var audio = $(id).children("audio").get(0);
+		audio.src="E:\java\music\μ's - 僕らのLIVE 君とのLIFE.mp3";
 		if(audio.paused){
 			audio.play();
 			img.attr("src","../images/pause.jpg");
