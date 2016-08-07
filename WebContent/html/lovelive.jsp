@@ -1,3 +1,5 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+response.setContentType("text/html;charset=UTF-8");
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -154,7 +156,7 @@ $(function(){
 			<div class="col-md-4 serv-grids">
 				<div class="ser-border">
 					<a target="_bland" href="http://bangumi.bilibili.com/anime/v/79879">
-						<img src="../images/season1.jpg"  width="100%" height="100%">
+						<img src="../images/season1.jpg"  width="100%" height="70%">
 						<h4>第一季</h4>
 					</a>
 					
@@ -167,7 +169,7 @@ $(function(){
 			<div class="col-md-4 serv-grids">
 				<div class="ser-border">
 					<a target="_bland" href="http://bangumi.bilibili.com/anime/v/80114">
-						<img src="../images/season2.jpg" width="100%" height="100%">
+						<img src="../images/season2.jpg" width="100%" height="70%">
 						<h4>第二季</h4>
 					</a>
 					
@@ -178,7 +180,7 @@ $(function(){
 			</div>
 			<div class="col-md-4 serv-grids">
 				<div class="ser-border">
-					<img src="../images/theater.jpg" width="100%" height="100%">
+					<img src="../images/theater.jpg" width="100%" height="70%">
 					<h4>剧场版</h4>
 <!-- 					<span class="glyphicon glyphicon-hourglass" aria-hidden="true"> </span> -->
 <!-- 					<h4>voluptas sit aspernatur</h4> -->
