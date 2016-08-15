@@ -1,4 +1,4 @@
-package lovelivemusic;
+package lovelive.music;
 
 import java.io.File;
 

@@ -63,7 +63,7 @@
 <!-- <aop:aspectj-autoproxy/> -->
 
 <!-- 开启组件扫描 -->
-<context:component-scan base-package="lovelivemusic"/>
+<context:component-scan base-package="lovelive.*"/>
 <mvc:annotation-driven/>
 
 

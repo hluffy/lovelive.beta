@@ -194,6 +194,8 @@ span.menu {
   -moz-border-radius: 10px;
   padding: 5px 25px;
   font-size: 1.1em;
+  font-family: Î¢ÈíÑÅºÚ;
+  font-weight: 500;
   }
  #loginContainer a span:hover{
 	background:#C07E1A;
@@ -1642,5 +1644,9 @@ span.devide-line {
   font-size: 0.8em;
   padding: 6px 15px;
 }
+/* span{ */
+/* 	font-family: Î¢ÈíÑÅºÚ; */
+/* 	font-weight: 500; */
+/* } */
 }
 /*--media quries end here--*/
