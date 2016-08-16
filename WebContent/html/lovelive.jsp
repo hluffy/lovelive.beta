@@ -1,4 +1,5 @@
-<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8" contentType="text/html; charset=UTF-8"%>
+<%request.setCharacterEncoding("UTF-8"); %>
 <!-- response.setContentType("text/html;charset=UTF-8"); -->
 <!DOCTYPE HTML>
 <html>
@@ -47,6 +48,7 @@ $(function(){
   <div class="header">
 	<div class="container">
 		 <div class="header-main">
+		 	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 				<div class="logo">
 					<h1 style="font-family:Times New Roman, Times, serif;font-weight:1000;font-size:50px;color:rgb(224, 35, 25)">LoveLive!</h1>
 				</div>
@@ -99,6 +101,7 @@ $(function(){
 		         <div class="clearfix"> </div>
 			</div>
 		 </div>
+		 </nav>
 		 <div class="clearfix"> </div>
 	  </div>
 		 <div class="banner-bottom">
@@ -262,9 +265,10 @@ $(function(){
 											<div style="text-align: center">
 												<span>僕らのLIVE 君とのLIFE</span>
 											</div>
-											<div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd1')">
+											<div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(1)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
+											<audio src=""></audio>
 										</div>
 										<div id="cd2" class="col-md-3 img-top ">
 <!-- 					   		  			    <a href="images/g2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"> -->
@@ -275,10 +279,10 @@ $(function(){
 												<div style="text-align: center">
 													<span>友情ノーチェンジ</span>
 												</div>
-												<div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd2')">
+												<div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(2)">
 													<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 												</div>
-												 <audio src="E:\java\music\μ's - 友情ノーチェンジ.mp3" loop="loop"></audio>
+												 <audio src=""></audio>
 <!-- 												 </div> -->
 <!-- 					   		  			   </a> -->
 										</div>
@@ -291,10 +295,10 @@ $(function(){
 											<div style="text-align:center">
 												<span>Snow halation</span>
 											</div>
-											<div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd3')">
+											<div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(3)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
-											<audio src="E:\java\music\μ's - Snow Halation - 单曲版.mp3"></audio>
+											<audio src=""></audio>
 <!-- 												 </div> -->
 <!-- 					   		  			   </a> -->
 										</div>
@@ -309,10 +313,10 @@ $(function(){
 												<div style="text-align:center">
 													<span>baby maybe 恋のボタン</span>
 												</div>
-												<div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd4')">
+												<div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(4)">
 													<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 												</div>
-												<audio src="E:\java\music\μ's - baby maybe 恋のボタン.mp3"></audio>
+												<audio src=""></audio>
 										</div>
 										<div class="clearfix"> </div>
 							     </div>	
@@ -328,10 +332,10 @@ $(function(){
 											<div style="text-align:center">
 												<span>夏色えがおで1,2,jump!</span>
 											</div>
-											<div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd5')">
+											<div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(5)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
-											<audio src="E:\java\music\μ's - 夏色えがおで1,2,Jump!.mp3"></audio>
+											<audio src=""></audio>
 										</div>
 										<div id="cd6" class="col-md-3 img-top ">
 <!-- 					   		  			    <a href="images/g6.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"> -->
@@ -344,10 +348,10 @@ $(function(){
 					   		  			   <div style="text-align:center">
 					   		  			   		<span>mermaid festa vol.1</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd6')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(6)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
-											<audio src="E:\java\music\μ's - Mermaid festa vol.1.mp3"></audio>
+											<audio src=""></audio>
 										</div>
 										<div id="cd7" class="col-md-3 img-top ">
 <!-- 					   		  			   <a href="images/g7.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"> -->
@@ -360,10 +364,10 @@ $(function(){
 					   		  			   <div style="text-align:center">
 					   		  			   		<span>もぎゅっと "love" で接近中</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd7')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(7)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
-											<audio src="E:\java\music\μ's - もぎゅっと'love'で接近中!.mp3"></audio>
+											<audio src=""></audio>
 										</div>
 										<div id="cd8" class="col-md-3 img-top ">
 <!-- 					   		  			     <a href="images/g8.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"> -->
@@ -376,7 +380,7 @@ $(function(){
 					   		  			   <div style="text-align:center">
 					   		  			   		<span>爱してるばんざーい!</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd8')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(8)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -396,7 +400,7 @@ $(function(){
 					   		  			   <div style="text-align:center">
 					   		  			   		<span>Wonderful Rush</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd9')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(9)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -413,7 +417,7 @@ $(function(){
 					   		  			   <div style="text-align:center">
 					   		  			   		<span>Oh, Love&Peace!</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd10')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(10)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -429,7 +433,7 @@ $(function(){
 					   		  			   <div style="text-align:center">
 					   		  			   		<span>仆らは今のなかで</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd11')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(11)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -445,7 +449,7 @@ $(function(){
 					   		  			   <div style="text-align:center">
 					   		  			   		 <span>WILD STARS</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd12')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(12)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -459,7 +463,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>きっと青春が闻こえる</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd13')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(13)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -470,7 +474,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>辉夜の城で踊りたい</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd14')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(14)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -481,7 +485,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>ススメ→トゥモロウ</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd15')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(15)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -492,7 +496,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>No brand girls</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd16')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(16)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -506,7 +510,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>ラブノベルス</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd17')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(17)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -517,7 +521,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>これからのSomeday</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd18')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(18)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -528,7 +532,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>知らないlove*教えてlove</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd19')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(19)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -539,7 +543,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>START:DASH!!</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd20')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(20)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -553,7 +557,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>sweet&sweet holiday</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd21')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(21)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -564,7 +568,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>爱は太阳じゃない?</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd22')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(22)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -575,7 +579,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>ダイヤモンドプリンセスの忧郁</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd23')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(23)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -586,7 +590,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>Love marginal</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd24')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(24)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -600,7 +604,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>タカラモノズ</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd25')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(25)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -611,7 +615,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>Paradise Live</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd26')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(26)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -622,7 +626,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>Listen to my heart!!</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd27')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(27)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -633,7 +637,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>Music S.T.A.R.T!!</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd28')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(28)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -647,7 +651,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>あ・の・ね・が・ん・ば・れ!</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd29')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(29)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -658,7 +662,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>LOVELESS WORLD</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd30')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(30)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -669,7 +673,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>after school NAVIGATORS</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd31')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(31)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -680,7 +684,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>LONELIEST BABY</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd32')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(32)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -694,7 +698,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>Cutie Panther</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd33')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(33)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -705,7 +709,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>それは仆たちの奇迹</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd34')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(34)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -716,7 +720,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>Pure girls project</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd35')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(35)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -727,7 +731,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>どんなときもずっと</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd36')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(36)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -741,7 +745,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>微热からMystery</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd37')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(37)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -752,7 +756,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>ユメノトビラ</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd38')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(38)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -763,7 +767,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>夏、终わらないで。</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd39')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(39)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -774,7 +778,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>Love wing bell</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd40')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(40)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -788,7 +792,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>UNBALANCED LOVE</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd41')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(41)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -799,7 +803,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>Dancing Stars On Me!</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd42')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(42)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -810,7 +814,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>キミのくせに!</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd43')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(43)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -821,7 +825,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>KiRa-KiRa Sensation!</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd44')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(44)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -835,7 +839,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>ありふれた悲しみの果て</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd45')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(45)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -846,7 +850,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>Happy maker!</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd46')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(46)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -857,7 +861,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>孤独なHeaven</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd47')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(47)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -868,7 +872,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>だってだって噫无情</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd48')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(48)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -882,7 +886,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>Someday of my life</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd49')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(49)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -893,7 +897,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>COLORFUL VOICE</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd50')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(50)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -904,7 +908,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>ぶる~べりぃ♥とれいん</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd51')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(51)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -915,7 +919,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>SENTIMENTAL StepS</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd52')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(52)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -929,7 +933,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>Daring!!</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd53')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(53)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -940,7 +944,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>もうひとりじゃないよ</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd54')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(54)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -951,7 +955,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>勇気のReason</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd55')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(55)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -962,7 +966,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>私たちは未来の花</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd56')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(56)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -976,7 +980,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>恋のシグナルRin rin rin!</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd57')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(57)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -987,7 +991,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>スピカテリブル</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd58')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(58)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -998,7 +1002,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>まほうつかいはじめました!</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd59')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(59)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -1009,7 +1013,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>纯爱レンズ</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd60')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(60)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -1023,7 +1027,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>Angelic Angel</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd61')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(61)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -1034,7 +1038,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>Private Wars</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd62')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(62)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -1045,7 +1049,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>ふたりハピネス</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd63')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(63)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -1056,7 +1060,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>SUNNY DAY SONG</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd64')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(64)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -1070,7 +1074,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>Trouble Busters</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd65')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(65)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -1081,7 +1085,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>永远フレンズ</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd66')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(66)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -1092,7 +1096,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>秋のあなたの空远く</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd67')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(67)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -1103,7 +1107,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>冬がくれた予感 </span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd68')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(68)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -1117,7 +1121,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>仆たちはひとつの光 </span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd69')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(69)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -1128,7 +1132,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>小夜啼鸟恋诗 </span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd70')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(70)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -1139,7 +1143,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>シアワセ行きのSMILING!</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd71')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(71)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -1150,7 +1154,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>HEART to HEART! </span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd72')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(72)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -1164,7 +1168,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>嵐のなかの恋だから</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd73')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(73)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -1175,7 +1179,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>もしもからきっと</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd74')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(74)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -1186,7 +1190,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>Shocking Party</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd75')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(75)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -1197,7 +1201,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>好きですが好きですか?</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd76')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(76)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -1211,7 +1215,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>ミはμ'sicのミ</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd77')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(77)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -1222,7 +1226,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>ずるいよMagnetic today</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd78')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(78)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -1233,7 +1237,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>Super LOVE=Super LIVE!</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd79')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(79)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -1244,7 +1248,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>くるりんMIRACLE</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd80')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(80)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -1258,7 +1262,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>MOMENT RING</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd81')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(81)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -1269,7 +1273,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>Storm in Lover</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd82')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(82)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -1280,7 +1284,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>さようならへさよなら！</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd83')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(83)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -1291,7 +1295,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>NO EXIT ORION</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd84')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(84)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -1305,7 +1309,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>Shangri-La Shower</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd85')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(85)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -1316,7 +1320,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>春情ロマンチィック</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd86')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(86)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -1327,7 +1331,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>るてしキスキしてる</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd87')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(87)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -1338,7 +1342,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>PSYCHIC FIRE</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd88')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(88)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -1352,7 +1356,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>そして最后のページには</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd89')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(89)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -1363,7 +1367,7 @@ $(function(){
 							   				<div style="text-align:center">
 					   		  			   		<span>ぷわぷわーお!</span>
 					   		  			   </div>
-					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay('cd90')">
+					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(90)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
 											</div>
 											<audio src=""></audio>
@@ -1764,6 +1768,14 @@ $(function(){
 
 <!--clients end here-->
 <!--contact start here-->
+<div class="footForLL">
+	<div class="container">
+		<div class="">
+			<img src="images/lovelive snow halation.png" alt="图片" width="1180px">
+		</div>
+	</div>
+</div>
+
 <!-- <div class="contact" id="contact"> -->
 <!-- 	<div class="container"> -->
 <!-- 		<div class="contact-main"> -->
@@ -1789,49 +1801,60 @@ $(function(){
 <!-- 	</div> -->
 <!-- </div> -->
 <div>
-<!-- 	<audio src="audio/Audio.mp3" autoplay="autoplay" controls="controls"></audio> -->
 </div>
 <!--//contact-->
 <!--map statrt here-->
 <!--map start here-->
 <!--copy right start here-->
 
-<script>
-// 	function autoPlay(num){
-// 		$(".img").find("img").attr("src","images/play.jpg");
-// 		var id = "#"+num;
-// 		var img = $(id).children("div").children("img");
-// 		var audio = $(id).children("audio").get(0);
-// 		audio.src="E:\\java\\music\\μ's - 僕らのLIVE 君とのLIFE.mp3";
-// 		console.log(audio.src);
-// 		if(audio.paused){
-// 			audio.play();
-// 			img.attr("src","images/pause.jpg");
-// 			return;
-// 		}
-// 		audio.pause();
-// 		img.attr("src","images/play.jpg");
-// 	}
-	var audio = new Audio();
+<script charset="UTF-8">
+	var time=0;
 	function autoPlay(num){
-		console.log(audio);
-		$(".img").find("img").attr("src","images/play.jpg")
-		var id = "#"+num;
+		$(".img").find("img").attr("src","images/play.jpg");
+		var id = "#cd"+num;
 		var img = $(id).children("div").children("img");
-// 		var audio = $(id).children("audio").get(0);
-// 		audio.src = "../SnowHalation.mp3";
-// 		audio.loop = "loop";
-// 		audio.controls = "controls";
-		if(audio.pause){
-			audio.src = "http://localhost:8080/lovelive.beta/getLLMusicToJsp.lovelive?src=Snow";
+		var audio = $(id).children("audio").get(0);
+		var src = $(id).children("div").children("span").html();
+		src = encodeURI(src,"UTF-8");
+		var path = "http://localhost:8080/lovelive.beta/getLLMusicToJsp.lovelive?src="+src;
+		path = encodeURI(path,"UTF-8");
+		var span = $(id).children("div").children("span");
+		if(audio.paused){
+			var audios = $("audio");
+			for(var i =0;i<audios.length;i++){
+				var a = audios[i];
+				if(!a.paused){
+					a.pause();
+				}
+			}
+			
+			$("span").css({
+				"color":"#777777"
+			});
+			
+			audio.src=path;
 			audio.play();
 			img.attr("src","images/pause.jpg");
-// 			audio = audio;
+			
+			span.css({
+				"color":"#e4007f"
+			});
+			
+			audio.addEventListener('ended', function () {  
+			    num = num + 1;
+			    if(num>90){
+			    	num = 1;
+			    }
+			    autoPlay(num);
+			}, false);
+			
+			
 			return;
 		}
+		time = audio.currentTime;
+		console.log(time);
 		audio.pause();
 		img.attr("src","images/play.jpg");
-		audio = new Audio();
 	}
 	
 	var flage = false;
@@ -1851,9 +1874,13 @@ $(function(){
 	
 	$("div.col-md-3").mouseleave(function(){
 		var span = $(this).children("div").children("span");
-		span.css({
-			"color":"#777777"
-		});
+		var audio = $(this).children("audio").get(0);
+// 		console.log(audio.paused);
+		if(audio.paused){
+			span.css({
+				"color":"#777777"
+			});
+		}
 	});
 	
 	$(function(){

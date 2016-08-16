@@ -3,6 +3,8 @@ package lovelive.controller;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.net.URLDecoder;
+import java.net.URLEncoder;
 
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletRequest;
@@ -18,6 +20,7 @@ public class LoveLiveMusicController {
 	
 	@RequestMapping("ll.lovelive")
 	public String openLoveLiveView(Model model) throws Exception{
+//		model.addAttribute("musicPath","http://localhost:8080/lovelive.beta/getLLMusicToJsp.lovelive?src=");
 		model.addAttribute("path","http://localhost:8080/lovelive.beta/getLLPictureToJsp.lovelive?src=");
 		return "/html/lovelive.jsp";
 	}
@@ -77,10 +80,10 @@ public class LoveLiveMusicController {
 	
 	@RequestMapping("getLLMusicToJsp.lovelive")
 	public void getLLMusicToJsp(String src,HttpServletRequest request,HttpServletResponse response) throws Exception{
+		src = URLDecoder.decode(src,"UTF-8");
 		FileInputStream fis = null;
 		ServletOutputStream sos = null;
 		boolean flag = false;
-		
 		String path = "E:/BaiduYunDownload/lovelive mp3/lovelivemusic";
 		File file = new File(path);
 		File[] musices = file.listFiles();
