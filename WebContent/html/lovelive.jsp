@@ -1830,7 +1830,7 @@ $(function(){
 		var canvas = document.getElementById("schedule");
 		setTimeout(function(){
 			if(canvas.getContext){
-				console.log(1111);
+// 				console.log(1111);
 				var ctx = canvas.getContext("2d");
 				ctx.clearRect(0,0,canvas.clientWidth,canvas.clientHeight);
 				ctx.fillStyle="#ccc";
