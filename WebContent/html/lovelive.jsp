@@ -52,6 +52,13 @@ $(function(){
 				<div class="logo">
 					<h1 style="font-family:Times New Roman, Times, serif;font-weight:1000;font-size:50px;color:rgb(224, 35, 25)">LoveLive!</h1>
 				</div>
+				<div class="header-middle" style="height:15px">
+					<span id="musicName" style="font-family: 微软雅黑"></span>
+					<br/>
+					<canvas id="schedule" width="500px" height="3px"></canvas>
+					&nbsp;&nbsp;
+					<span id="musicTime"></span>
+				</div>
 				<div class="header-right">
 				<div class="top-nav">
 					<span class="menu"> <img src="images/icon.png" alt=""/></span>
@@ -362,7 +369,7 @@ $(function(){
 <!-- 												 </div> -->
 <!-- 					   		  			   </a> -->
 					   		  			   <div style="text-align:center">
-					   		  			   		<span>もぎゅっと "love" で接近中</span>
+					   		  			   		<span>もぎゅっと love で接近中</span>
 					   		  			   </div>
 					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(7)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
@@ -431,7 +438,7 @@ $(function(){
 <!-- 												 </div> -->
 <!-- 					   		  			   </a> -->
 					   		  			   <div style="text-align:center">
-					   		  			   		<span>仆らは今のなかで</span>
+					   		  			   		<span>僕らは今のなかで </span>
 					   		  			   </div>
 					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(11)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
@@ -530,7 +537,7 @@ $(function(){
 <!-- 							   				<img src="images/lovelive19.jpg" class="img-responsive" alt=""/> -->
 							   				<img src="${path }lovelive19.jpg" class="img-responsive" alt="图片">
 							   				<div style="text-align:center">
-					   		  			   		<span>知らないlove*教えてlove</span>
+					   		  			   		<span>知らないlove教えてlove</span>
 					   		  			   </div>
 					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(19)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
@@ -541,7 +548,7 @@ $(function(){
 <!-- 							   				<img src="images/lovelive20.jpg" class="img-responsive" alt=""/> -->
 							   				<img src="${path }lovelive20.jpg" class="img-responsive" alt="图片">
 							   				<div style="text-align:center">
-					   		  			   		<span>START:DASH!!</span>
+					   		  			   		<span>START-DASH!!</span>
 					   		  			   </div>
 					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(20)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
@@ -566,7 +573,7 @@ $(function(){
 <!-- 							   				<img src="images/lovelive22.jpg" class="img-responsive" alt=""/> -->
 							   				<img src="${path }lovelive22.jpg" class="img-responsive" alt="图片">
 							   				<div style="text-align:center">
-					   		  			   		<span>爱は太阳じゃない?</span>
+					   		  			   		<span>爱は太阳じゃない</span>
 					   		  			   </div>
 					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(22)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
@@ -577,7 +584,7 @@ $(function(){
 <!-- 							   				<img src="images/lovelive23.jpg" class="img-responsive" alt=""/> -->
 							   				<img src="${path }lovelive23.jpg" class="img-responsive" alt="图片">
 							   				<div style="text-align:center">
-					   		  			   		<span>ダイヤモンドプリンセスの忧郁</span>
+					   		  			   		<span>ダイヤモンドプリンセスの憂鬱</span>
 					   		  			   </div>
 					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(23)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
@@ -870,7 +877,7 @@ $(function(){
 <!-- 							   				<img src="images/lovelive48.jpg" class="img-responsive" alt=""/> -->
 							   				<img src="${path }lovelive48.jpg" class="img-responsive" alt="图片">
 							   				<div style="text-align:center">
-					   		  			   		<span>だってだって噫无情</span>
+					   		  			   		<span>だってだって噫無情</span>
 					   		  			   </div>
 					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(48)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
@@ -1083,7 +1090,7 @@ $(function(){
 <!-- 							   				<img src="images/lovelive66.jpg" class="img-responsive" alt=""/> -->
 							   				<img src="${path }lovelive66.jpg" class="img-responsive" alt="图片">
 							   				<div style="text-align:center">
-					   		  			   		<span>永远フレンズ</span>
+					   		  			   		<span>永遠フレンズ</span>
 					   		  			   </div>
 					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(66)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
@@ -1094,7 +1101,7 @@ $(function(){
 <!-- 							   				<img src="images/lovelive67.jpg" class="img-responsive" alt=""/> -->
 							   				<img src="${path }lovelive67.jpg" class="img-responsive" alt="图片">
 							   				<div style="text-align:center">
-					   		  			   		<span>秋のあなたの空远く</span>
+					   		  			   		<span>秋のあなたの空遠く</span>
 					   		  			   </div>
 					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(67)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
@@ -1105,7 +1112,7 @@ $(function(){
 <!-- 							   				<img src="images/lovelive68.jpg" class="img-responsive" alt=""/> -->
 							   				<img src="${path }lovelive68.jpg" class="img-responsive" alt="图片">
 							   				<div style="text-align:center">
-					   		  			   		<span>冬がくれた予感 </span>
+					   		  			   		<span>冬がくれた予感</span>
 					   		  			   </div>
 					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(68)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
@@ -1119,7 +1126,7 @@ $(function(){
 <!-- 							   				<img src="images/lovelive69.jpg" class="img-responsive" alt=""/> -->
 							   				<img src="${path }lovelive69.jpg" class="img-responsive" alt="图片">
 							   				<div style="text-align:center">
-					   		  			   		<span>仆たちはひとつの光 </span>
+					   		  			   		<span>僕たちはひとつの光 </span>
 					   		  			   </div>
 					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(69)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
@@ -1130,7 +1137,7 @@ $(function(){
 <!-- 							   				<img src="images/lovelive70.jpg" class="img-responsive" alt=""/> -->
 							   				<img src="${path }lovelive70.jpg" class="img-responsive" alt="图片">
 							   				<div style="text-align:center">
-					   		  			   		<span>小夜啼鸟恋诗 </span>
+					   		  			   		<span>小夜啼鳥恋詩 </span>
 					   		  			   </div>
 					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(70)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
@@ -1199,7 +1206,7 @@ $(function(){
 <!-- 							   				<img src="images/lovelive76.jpg" class="img-responsive" alt=""/> -->
 							   				<img src="${path }lovelive76.jpg" class="img-responsive" alt="图片">
 							   				<div style="text-align:center">
-					   		  			   		<span>好きですが好きですか?</span>
+					   		  			   		<span>好きですが好きですか？</span>
 					   		  			   </div>
 					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(76)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
@@ -1365,7 +1372,7 @@ $(function(){
 <!-- 							   				<img src="images/lovelive90.jpg" class="img-responsive" alt=""/> -->
 							   				<img src="${path }lovelive90.jpg" class="img-responsive" alt="图片">
 							   				<div style="text-align:center">
-					   		  			   		<span>ぷわぷわーお!</span>
+					   		  			   		<span>ぷわぷわーお！</span>
 					   		  			   </div>
 					   		  			   <div class="img" style="position: absolute;top: 35%;left: 40%;width: 70px;height: 70px" onclick="autoPlay(90)">
 												<img hidden="true" src="images/play.jpg" width="100%" class="imgplay">
@@ -1810,6 +1817,7 @@ $(function(){
 <script charset="UTF-8">
 	var time=0;
 	function autoPlay(num){
+		var fWidth = 0;
 		$(".img").find("img").attr("src","images/play.jpg");
 		var id = "#cd"+num;
 		var img = $(id).children("div").children("img");
@@ -1819,6 +1827,16 @@ $(function(){
 		var path = "http://localhost:8080/lovelive.beta/getLLMusicToJsp.lovelive?src="+src;
 		path = encodeURI(path,"UTF-8");
 		var span = $(id).children("div").children("span");
+		var canvas = document.getElementById("schedule");
+		setTimeout(function(){
+			if(canvas.getContext){
+				console.log(1111);
+				var ctx = canvas.getContext("2d");
+				ctx.clearRect(0,0,canvas.clientWidth,canvas.clientHeight);
+				ctx.fillStyle="#ccc";
+				ctx.fillRect(0,0,canvas.clientWidth,canvas.clientHeight);
+			}
+		},500);
 		if(audio.paused){
 			var audios = $("audio");
 			for(var i =0;i<audios.length;i++){
@@ -1847,6 +1865,34 @@ $(function(){
 			    }
 			    autoPlay(num);
 			}, false);
+			
+			var musicName = $("#musicName");
+			var musicTime = $("#musicTime");
+			musicName.html($(id).children("div").children("span").html());
+			
+// 			if(canvas.getContext){
+// 				var ctx = canvas.getContext("2d");
+// 				ctx.clearRect(0,0,canvas.clientWidth,canvas.clientHeight);
+// 				ctx.fillStyle="#ccc";
+// 				ctx.fillRect(0,0,canvas.clientWidth,canvas.clientHeight);
+// 			}
+			audio.addEventListener("timeupdate",function(){
+				var scheduleTime = Math.round(audio.currentTime);
+				var ms = Math.round(audio.duration);
+				var dmsc = Math.floor(ms/60)+":"+ms%60;
+				var cmsc = Math.floor(scheduleTime/60)+":"+scheduleTime%60;
+				musicTime.html(cmsc+"/"+dmsc);
+				if(canvas.getContext){
+					var ctx = canvas.getContext("2d");
+					fWidth = (scheduleTime/audio.duration)*(canvas.clientWidth);
+					console.log(fWidth);
+					if(fWidth>0){
+						ctx.clearRect(0,0,fWidth,canvas.clientWidth);
+						ctx.fillStyle="rgb(255,0,0)";
+						ctx.fillRect(0,0,fWidth,canvas.clientWidth);
+					}
+				}
+			},true);
 			
 			
 			return;

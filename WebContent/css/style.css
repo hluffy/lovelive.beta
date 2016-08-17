@@ -36,9 +36,13 @@ a:hover {
   float: left;
   width: 30%;
 }
+.header-middle {
+	folat:right;
+	width:100%;
+}
 .header-right {
   float: right;
-  width: 70%;
+  width: 50%;
 }
 .top-nav {
   float: left;
