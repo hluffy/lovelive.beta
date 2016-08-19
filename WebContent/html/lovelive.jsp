@@ -1879,13 +1879,20 @@ $(function(){
 			audio.addEventListener("timeupdate",function(){
 				var scheduleTime = Math.round(audio.currentTime);
 				var ms = Math.round(audio.duration);
-				var dmsc = Math.floor(ms/60)+":"+ms%60;
-				var cmsc = Math.floor(scheduleTime/60)+":"+scheduleTime%60;
+				var ds = ms%60;
+				if(ds.toString().length<2){
+					ds = "0"+ds;
+				}
+				var dmsc = "0"+Math.floor(ms/60)+":"+ds;
+				var cs = scheduleTime%60;
+				if(cs.toString().length<2){
+					cs = "0"+cs;
+				}
+				var cmsc = "0"+Math.floor(scheduleTime/60)+":"+cs;
 				musicTime.html(cmsc+"/"+dmsc);
 				if(canvas.getContext){
 					var ctx = canvas.getContext("2d");
 					fWidth = (scheduleTime/audio.duration)*(canvas.clientWidth);
-					console.log(fWidth);
 					if(fWidth>0){
 						ctx.clearRect(0,0,fWidth,canvas.clientWidth);
 						ctx.fillStyle="rgb(255,0,0)";
