@@ -5,6 +5,65 @@
 		<title>MyCanvans</title>
 	</head>
 	<body>
-		
+		<div style="height:630px">
+			<canvas id="myCanvas" height="250px" width="1340px"></canvas>
+			<canvas id="imageCanvas" height="250px" width="1340px"></canvas>
+			<canvas id="gameCanvas" height="250px" width="1340px"></canvas>
+		</div>
 	</body>
+	<script>
+		var myCanvas = document.getElementById("myCanvas");
+		var mc = myCanvas.getContext("2d");
+		mc.fillStyle="#cccccc";
+		mc.fillRect(0,100,1350,150);
+		
+		var imageCanvas = document.getElementById("imageCanvas");
+		var ic = imageCanvas.getContext("2d");
+		ic.fillStyle="green";
+		var i  = 1350;
+		ic.fillRect(50,0,150,150);
+// 		setInterval(function(){
+// 			ic.fillStyle="#ffffff";
+// 			ic.fillRect(i,0,150,150);
+// 			ic.fillStyle="green";
+// 			i -= 1;
+// 			ic.fillRect(i,0,150,150);
+// 		},10);
+		
+		var gameCanvas = document.getElementById("gameCanvas");
+		var gc = gameCanvas.getContext("2d");
+		
+		function drawYosoro(){
+			var yosoro = new Image();
+			yosoro.src ="../images/yosoro.jpg";
+			yosoro.onload = function(event){
+				var i = 1350;
+				gc.drawImage(yosoro,i,0,120,120);
+				var j =setInterval(function(){
+					gc.fillStyle="#ffffff";
+					gc.fillRect(i,0,120,120);
+					i -= 3;
+					gc.drawImage(yosoro,i,0,120,120);
+					var flag = false;
+					if(i<200){
+						flag = true;
+						document.onkeydown = function(event){
+							var e = event||window.event||arguments.callee.caller.arguments[0];
+							if(e&&e.keyCode==74&&flag&&i>50){
+								gc.fillStyl="#ffffff";
+								gc.fillRect(i,0,150,150);
+								clearInterval(j);
+								flag = false;
+							}
+						}
+						
+					}
+				},1);
+			}
+		}
+		
+		setInterval(function(){
+			drawYosoro();
+		},500);
+	</script>
 </html>
