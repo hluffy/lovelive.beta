@@ -63,8 +63,8 @@ $(function(){
 				<div class="top-nav">
 					<span class="menu"> <img src="images/icon.png" alt=""/></span>
 					<ul class="res">
-					   <li><a href="#" class="active">μ's</a></li> 
-						<li><a class="" href="lovelivesunshine.html">Aqours</a></li> 
+					   <li><a href="lovelivecall.lovelive" class="active" target="_bland">call本</a></li> 
+<!-- 						<li><a class="" href="lovelivesunshine.html">游戏</a></li>  -->
 				   </ul>
 					<!-- script-for-menu -->
 						 <script>
@@ -204,6 +204,85 @@ $(function(){
 		</div>
 	</div>
 </div>
+
+<!-- live -->
+<div class="services">
+	<div class="container">
+		<div class="services-main">
+		  <div class="services-top">
+		  	 <h3>Live</h3>
+<!-- 		  	 <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p> -->
+		  </div>
+		  <div class="service-bottom">
+			<div class="col-md-4 serv-grids">
+				<div class="ser-border">
+					<a target="_bland" href="#">
+						<img src="images/1st.jpg"  width="100%" height="70%">
+						
+					</a>
+					<h4>1stLive</h4>
+					
+<!-- 					<span class="glyphicon glyphicon-envelope" aria-hidden="true"> </span> -->
+<!-- 					<h4>voluptas sit aspernatur</h4> -->
+<!-- 					<p>voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione</p> -->
+<!-- 					<video src="http://bangumi.bilibili.com/anime/v/79879" autoplay="autoplay" controls="controls"></video> -->
+			    </div>
+			</div>
+			<div class="col-md-4 serv-grids">
+				<div class="ser-border">
+					<a target="_bland" href="#">
+						<img src="images/2nd.jpg" width="100%" height="70%">
+						
+					</a>
+					<h4>2ndLive</h4>
+					
+<!-- 					<span class="glyphicon glyphicon-user" aria-hidden="true"> </span> -->
+<!-- 					<h4>voluptas sit aspernatur</h4> -->
+<!-- 					<p>voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione</p> -->
+			    </div>
+			</div>
+			<div class="col-md-4 serv-grids">
+				<div class="ser-border">
+					<a target="_bland" href="#">
+						<img src="images/3rd.jpg" width="100%" height="70%">
+					</a>
+					<h4>3rdLive</h4>
+<!-- 					<span class="glyphicon glyphicon-hourglass" aria-hidden="true"> </span> -->
+<!-- 					<h4>voluptas sit aspernatur</h4> -->
+<!-- 					<p>voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione</p> -->
+			   </div>
+			</div>
+		 <div class="clearfix"> </div>
+		 	<div class="col-md-4 serv-grids">
+		 		<div class="ser-border">
+		 			<a target="_bland" href="#">
+		 				<img src="images/4th.jpg" width="100%" height="70%">
+		 			</a>
+		 			<h4>4thLive</h4>
+		 		</div>
+		 	</div>
+		 	<div class="col-md-4 serv-grids">
+		 		<div class="ser-border">
+		 			<a target="_bland" href="">
+		 				<img src="images/5th.jpg" width="100%" height="70%">
+		 			</a>
+		 			<h4>5thLive</h4>
+		 		</div>
+		 	</div>
+		 	<div class="col-md-4 serv-grids">
+		 		<div class="ser-border">
+		 			<a target="_bland" href="#">
+		 				<img src="images/6th.jpg" width="100%" height="100%">
+		 			</a>
+		 			<h4>finalLive</h4>
+		 		</div>
+		 	</div>
+		 	<div class="clearfix"></div>
+		 </div>
+		</div>
+	</div>
+</div>
+
 <!--app end here-->
 <!-- changer start here-->
 <!-- <div class="changer"> -->
@@ -1928,7 +2007,6 @@ $(function(){
 	$("div.col-md-3").mouseleave(function(){
 		var span = $(this).children("div").children("span");
 		var audio = $(this).children("audio").get(0);
-// 		console.log(audio.paused);
 		if(audio.paused){
 			span.css({
 				"color":"#777777"

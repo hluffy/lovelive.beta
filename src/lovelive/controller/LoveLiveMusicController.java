@@ -18,6 +18,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class LoveLiveMusicController {
 	
+	@RequestMapping("lovelivecall.lovelive")
+	public String openLoveLiveCall() throws Exception{
+		return "/html/lovelivecall.jsp";
+	}
+	
 	@RequestMapping("ll.lovelive")
 	public String openLoveLiveView(Model model) throws Exception{
 //		model.addAttribute("musicPath","http://localhost:8080/lovelive.beta/getLLMusicToJsp.lovelive?src=");
@@ -38,6 +43,30 @@ public class LoveLiveMusicController {
 			}
 		}
 		return null;
+	}
+	
+	@RequestMapping("getLoveLiveCallPdf.lovelive")
+	@ResponseBody
+	public void getLLCall(String src,HttpServletResponse response) throws Exception{
+		FileInputStream fis = null;
+		ServletOutputStream sos = null;
+		
+		String path = "C:/Users/carol/Desktop/lovelive call/call_leader_project.pdf";
+		
+		try {
+			fis = new FileInputStream(path);
+			int i = fis.available();
+			byte[] data = new byte[i];
+			fis.read(data);
+			fis.close();
+			
+			sos = response.getOutputStream();
+			sos.write(data);
+			sos.flush();
+			sos.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 	
 	@RequestMapping("getLLPictureToJsp.lovelive")
