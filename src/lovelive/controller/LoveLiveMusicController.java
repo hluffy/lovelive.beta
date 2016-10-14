@@ -23,6 +23,12 @@ public class LoveLiveMusicController {
 		return "/html/lovelivecall.jsp";
 	}
 	
+	@RequestMapping("openchatroom.lovelive")
+	public String openChatRoom() throws Exception{
+		return "/html/chatroom.jsp";
+	}
+	
+	
 	@RequestMapping("ll.lovelive")
 	public String openLoveLiveView(Model model) throws Exception{
 //		model.addAttribute("musicPath","http://localhost:8080/lovelive.beta/getLLMusicToJsp.lovelive?src=");
@@ -43,6 +49,45 @@ public class LoveLiveMusicController {
 			}
 		}
 		return null;
+	}
+	
+	@RequestMapping("getLLLive.lovelive")
+	@ResponseBody
+	public void getLLLive(String src,HttpServletResponse response) throws Exception{
+		FileInputStream fis = null;
+		ServletOutputStream sos = null;
+		
+		String path = "D:/BDdownloads/【6th】μ's Final LoveLive! 〜μ'sic forever♪♪♪♪♪♪♪♪♪〜_Day1_Part1.mp4";
+		try {
+			fis = new FileInputStream(path);
+			sos = response.getOutputStream();
+			int i = 0;
+			byte[] data = new byte[99999999];
+			while((i = fis.read(data))!=-1){
+				sos.write(data,0,i);
+			}
+			fis.read(data);
+			fis.close();
+			sos.flush();
+			sos.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+//		try {
+//			fis = new FileInputStream(path);
+//			int i = fis.available();
+//			byte[] data = new byte[i];
+//			fis.read(data);
+//			fis.close();
+//			
+//			sos = response.getOutputStream();
+//			sos.write(data);
+//			sos.flush();
+//			sos.close();
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//		}
 	}
 	
 	@RequestMapping("getLoveLiveCallPdf.lovelive")
