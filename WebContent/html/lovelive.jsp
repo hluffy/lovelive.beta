@@ -253,6 +253,7 @@ $(function(){
 <!-- 					<p>voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione</p> -->
 			   </div>
 			</div>
+			<div class="col-md-4 serv-grids" style="width:100%;height:25px"></div>
 		 <div class="clearfix"> </div>
 		 	<div class="col-md-4 serv-grids">
 		 		<div class="ser-border">
@@ -273,7 +274,7 @@ $(function(){
 		 	<div class="col-md-4 serv-grids">
 		 		<div class="ser-border">
 		 			<a target="_bland" href="#">
-		 				<img src="images/6th.jpg" width="100%" height="100%">
+		 				<img src="images/llfl.png" width="100%" height="100%">
 		 			</a>
 		 			<h4>finalLive</h4>
 		 		</div>
